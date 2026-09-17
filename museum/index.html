@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECOAST Digital Museum</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main id="entrance" class="page museum-entrance active">
+  <div class="ceiling-light"></div>
+  <section class="welcome">
+    <p class="small-title">ECOAST PRESENTS</p>
+    <h1>Digital Museum</h1>
+    <p class="tagline">A Journey Through the Different Forms of Art</p>
+    <button id="enterButton" class="primary-button">ENTER THE MUSEUM</button>
+    <button id="foundersEntranceButton" class="text-button">MEET THE FOUNDERS</button>
+  </section>
+  <div class="museum-floor"></div>
+</main>
+
+<main id="lobby" class="page museum-lobby">
+  <div class="lobby-light light-one"></div><div class="lobby-light light-two"></div><div class="lobby-light light-three"></div>
+
+<button class="back-button" data-back="entrance">← BACK TO HOME</button>
+  <header class="lobby-header">
+    <p class="museum-label">WELCOME TO</p>
+    <h2>ECOAST DIGITAL MUSEUM</h2>
+    <p class="lobby-description">Explore the different manifestations of art.</p>
+  </header>
+  <section class="gallery-entrances">
+
+    <button class="gallery-door" data-gallery="painting">
+      <span class="door-icon">🎨</span>
+      <span class="door-title">PAINTING</span>
+      <span class="door-description">Colors, forms & expressions</span>
+    </button>
+    <button class="gallery-door" data-gallery="sculpture">
+      <span class="door-icon">🗿</span>
+      <span class="door-title">SCULPTURE</span>
+      <span class="door-description">Art in three dimensions</span>
+    </button>
+    <button class="gallery-door" data-gallery="photography">
+      <span class="door-icon">📷</span>
+      <span class="door-title">PHOTOGRAPHY</span>
+      <span class="door-description">Moments captured in time</span>
+    </button>
+    <button class="gallery-door" data-gallery="music">
+      <span class="door-icon">🎵</span>
+      <span class="door-title">MUSIC</span>
+      <span class="door-description">Art expressed through sound</span>
+    </button>
+    <button class="gallery-door" data-gallery="drama">
+      <span class="door-icon">🎭</span>
+      <span class="door-title">DRAMA</span>
+      <span class="door-description">Stories brought to life</span>
+    </button>
+  </section>
+  <div class="lobby-floor"></div>
+  <div class="lobby-footer">SELECT A GALLERY TO BEGIN</div>
+</main>
+
+<section id="foundersRoom" class="page founders-room">
+  <button class="back-button" data-back="entrance">← BACK TO HOME</button>
+  <div class="founders-header">
+    <p>ECOAST DIGITAL MUSEUM</p>
+    <h2>THE PEOPLE BEHIND THE EXHIBITION</h2>
+    <span>Meet the students who brought this digital gallery to life.</span>
+  </div>
+
+  <div class="members-grid">
+
+    <article class="member-card member-1">
+        <div class="member-photo">
+            <img src="images/ian.jpg" alt="Ian Charles Carbonel">
+        </div>
+        <span>MEMBER 01</span>
+        <div class="member-info">
+            <strong>Ian Charles Carbonel</strong>
+            <span>UI/UX Designer</span>
+        </div>
+    </article>
+
+    <article class="member-card member-2">
+        <div class="member-photo">
+            <img src="images/jade.jpg" alt="Jade Lacson">
+        </div>
+        <span>MEMBER 02</span>
+        <div class="member-info">
+            <strong>Jade Lacson</strong>
+            <span>Project Manager</span>
+        </div>
+    </article>
+
+    <article class="member-card member-3">
+        <div class="member-photo">
+            <img src="images/cezar.jpg" alt="Cezar Prejillano Jr.">
+        </div>
+        <span>MEMBER 03</span>
+        <div class="member-info">
+            <strong>Cezar Prejillano Jr.</strong>
+            <span>Content Manager</span>
+        </div>
+    </article>
+
+    <article class="member-card member-4">
+        <div class="member-photo">
+            <img src="images/jason.jpg" alt="Jason Tabamo">
+        </div>
+        <span>MEMBER 04</span>
+        <div class="member-info">
+            <strong>Jason Tabamo</strong>
+            <span>Editor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-5">
+        <div class="member-photo">
+            <img src="images/joshua.jpg" alt="Joshua Viens Viernes">
+        </div>
+        <span>MEMBER 05</span>
+        <div class="member-info">
+            <strong>Joshua Viens Viernes</strong>
+            <span>Lead Programmer</span>
+        </div>
+    </article>
+
+    <!-- NEW MEMBER 06 -->
+    <article class="member-card member-6">
+        <div class="member-photo">
+            <img src="images/aldrin.jpg" alt="Mark Aldrin Requimin Trinidad">
+        </div>
+        <span>MEMBER 06</span>
+        <div class="member-info">
+            <strong>Mark Aldrin Requimin Trinidad</strong>
+            <span>Multimedia Manager</span>
+        </div>
+    </article>
+
+    <article class="member-card member-7">
+        <div class="member-photo">
+            <img src="images/lovey.jpg" alt="Lovey Mae Urbano">
+        </div>
+        <span>MEMBER 07</span>
+        <div class="member-info">
+            <strong>Lovey Mae Urbano</strong>
+            <span>Painting Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-8">
+        <div class="member-photo">
+            <img src="images/xean.jpg" alt="Xean Angelo Collado">
+        </div>
+        <span>MEMBER 08</span>
+        <div class="member-info">
+            <strong>Xean Angelo Collado</strong>
+            <span>Painting Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-9">
+        <div class="member-photo">
+            <img src="images/rashmica.jpg" alt="Rashmica Joy Lucas">
+        </div>
+        <span>MEMBER 09</span>
+        <div class="member-info">
+            <strong>Rashmica Joy Lucas</strong>
+            <span>Painting Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-10">
+        <div class="member-photo">
+            <img src="images/renald.jpg" alt="Renald Acosta">
+        </div>
+        <span>MEMBER 10</span>
+        <div class="member-info">
+            <strong>Renald Acosta</strong>
+            <span>Sculpture Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-11">
+        <div class="member-photo">
+            <img src="images/rjale.jpg" alt="Rjale Hero Lagera">
+        </div>
+        <span>MEMBER 11</span>
+        <div class="member-info">
+            <strong>Rjale Hero Lagera</strong>
+            <span>Sculpture Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-12">
+        <div class="member-photo">
+            <img src="images/rhaevin.jpg" alt="Rhaeven Castillo">
+        </div>
+        <span>MEMBER 12</span>
+        <div class="member-info">
+            <strong>Rhaevin Castillo</strong>
+            <span>Sculpture Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-13">
+        <div class="member-photo">
+            <img src="images/adrian.jpg" alt="Adrian Laroya">
+        </div>
+        <span>MEMBER 13</span>
+        <div class="member-info">
+            <strong>Adrian Laroya</strong>
+            <span>Photography Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-14">
+        <div class="member-photo">
+            <img src="images/hannah.jpg" alt="Hannah Jazeel Medrano">
+        </div>
+        <span>MEMBER 14</span>
+        <div class="member-info">
+            <strong>Hannah Jazeel Medrano</strong>
+            <span>Photography Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-15">
+        <div class="member-photo">
+            <img src="images/carl.jpg" alt="Carl Magarro">
+        </div>
+        <span>MEMBER 15</span>
+        <div class="member-info">
+            <strong>Carl Magarro</strong>
+            <span>Photography Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-16">
+        <div class="member-photo">
+            <img src="images/brent.jpg" alt="Brent Gabriele Espique">
+        </div>
+        <span>MEMBER 16</span>
+        <div class="member-info">
+            <strong>Brent Gabriele Espique</strong>
+            <span>Music Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-17">
+        <div class="member-photo">
+            <img src="images/abe.jpg" alt="Abe Marie Lagula">
+        </div>
+        <span>MEMBER 17</span>
+        <div class="member-info">
+            <strong>Abe Marie Lagula</strong>
+            <span>Music Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-18">
+        <div class="member-photo">
+            <img src="images/tim.jpg" alt="Aldrin Tim Borja">
+        </div>
+        <span>MEMBER 18</span>
+        <div class="member-info">
+            <strong>Aldrin Tim Borja</strong>
+            <span>Music Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-19">
+        <div class="member-photo">
+            <img src="images/sam.jpg" alt="Samantha Nichole Parado">
+        </div>
+        <span>MEMBER 19</span>
+        <div class="member-info">
+            <strong>Samantha Nichole Parado</strong>
+            <span>Drama Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-20">
+        <div class="member-photo">
+            <img src="images/jhunver.jpg" alt="Jhunver Cedrick De Vera">
+        </div>
+        <span>MEMBER 20</span>
+        <div class="member-info">
+            <strong>Jhunver Cedrick De Vera</strong>
+            <span>Drama Content Contributor</span>
+        </div>
+    </article>
+
+    <article class="member-card member-21">
+        <div class="member-photo">
+            <img src="images/julia.jpg" alt="Julia Clarissee">
+        </div>
+        <span>MEMBER 21</span>
+        <div class="member-info">
+            <strong>Julia Clarissee</strong>
+            <span>Drama Content Contributor</span>
+        </div>
+    </article>
+
+</div>
+  <div class="founders-footer">ECOAST · DIGITAL ART EXHIBITION</div>
+</section>
+
+<section id="paintingRoom" class="page gallery-room">
+  <button class="back-button" data-back="lobby">← BACK TO LOBBY</button>
+  <header class="room-header"><p>GALLERY I</p><h2>🎨 PAINTING</h2><span>Colors, forms & expressions</span></header>
+  <div class="exhibit-grid">
+
+    <article class="exhibit-card" data-title="Spoliarium" data-creator="Juan Luna" data-year="1884" data-description="A monumental oil painting showing dead and dying gladiators being dragged into the spoliarium, a chamber beneath a Roman amphitheater where their bodies and belongings were stripped. Luna uses dramatic lighting, strong contrasts, and powerful figures to create a tragic and emotional scene. The painting is one of the most important works in Philippine art history." data-elements="Dark and warm colors, contrast, balance, movement, emphasis, proportion, and dramatic lighting." data-meaning="Beyond its Roman subject, the painting has often been interpreted as representing oppression, suffering, and the struggle for dignity and freedom. Its emotional power made it an important symbol of Filipino nationalism." data-fact="Luna spent about eight months completing the work. It won a gold medal at the 1884 Madrid Exposition of Fine Arts and is now displayed at the National Museum of Fine Arts in Manila. (National Museum of the Philippines)" data-source="National Museum of the Philippines – Spoliarium Hall" data-note="" data-category="Painting Gallery">
+      <div class="exhibit-image">
+    	<img src="images/spoliarium.jpg" alt="Spoliarium by Juan Luna">
+	</div>
+      <div class="exhibit-plaque"><h3>Spoliarium</h3><p>Juan Luna · 1884</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="Planting Rice" data-creator="Fernando Amorsolo" data-year="1921 (earliest known version)" data-description="Planting Rice depicts Filipino farmers working in a wet rice field. Amorsolo&#x27;s bright atmosphere, carefully arranged figures, and agricultural setting create a distinctly Filipino rural scene. The painting celebrates farming while presenting the countryside as productive, lively, and beautiful." data-elements="Warm colors, light, balance, repetition, rhythm, perspective, emphasis, and harmony." data-meaning="The work connects Filipino identity with agriculture and rural life. It portrays farming not simply as labor but as an important part of Filipino culture and community." data-fact="There are several versions of Planting Rice. The 1921 version is considered the earliest known version, while other versions were produced from 1921 to 1944. (CCP Encyclopedia of Philippine Art)" data-source="CCP Encyclopedia of Philippine Art – Planting Rice" data-note="" data-category="Painting Gallery">
+     <div class="exhibit-image">
+    <img src="images/planting-rice.jpg" alt="Planting Rice by Fernando Amorsolo">
+</div>
+      <div class="exhibit-plaque"><h3>Planting Rice</h3><p>Fernando Amorsolo · 1921 (earliest known version)</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="Mona Lisa" data-creator="Leonardo da Vinci" data-year="c. 1503–1519" data-description="Mona Lisa is a portrait of Lisa Gherardini, wife of Florentine merchant Francesco del Giocondo. Leonardo presents her seated against a distant, atmospheric landscape. Her subtle expression and soft transitions between light and shadow give the portrait its mysterious quality." data-elements="Sfumato, balance, proportion, atmospheric perspective, harmony, emphasis, and subtle contrast." data-meaning="The painting explores human presence and individuality through an unusually natural and psychologically engaging portrait. Her ambiguous smile has contributed greatly to the painting&#x27;s enduring mystery." data-fact="The Louvre identifies the sitter as Lisa Gherardini and dates the work to approximately 1503–1519. Leonardo kept the painting with him for much of his life. (Louvre Collections)" data-source="Musée du Louvre – Mona Lisa Collection Record" data-note="" data-category="Painting Gallery">
+      <div class="exhibit-image">
+   	<img src="images/mona-lisa.jpg" alt="Mona Lisa by Leonardo da Vinci">
+	</div>
+      <div class="exhibit-plaque"><h3>Mona Lisa</h3><p>Leonardo da Vinci · c. 1503–1519</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+  </div>
+  <div class="gallery-footer">CLICK “VIEW EXHIBIT” TO LEARN MORE</div>
+</section>
+
+<section id="sculptureRoom" class="page gallery-room">
+  <button class="back-button" data-back="lobby">← BACK TO LOBBY</button>
+  <header class="room-header"><p>GALLERY II</p><h2>🗿 SCULPTURE</h2><span>Art in three dimensions</span></header>
+  <div class="exhibit-grid">
+
+    <article class="exhibit-card" data-title="Oblation" data-creator="Guillermo E. Tolentino" data-year="1935" data-description="The Oblation is a nude male figure standing with arms extended and head raised toward the sky. Created for the University of the Philippines, the sculpture represents selfless offering and dedication to the nation and humanity." data-elements="Proportion, balance, movement, symmetry, emphasis, and expressive human form." data-meaning="The figure symbolizes selfless service and sacrifice. Its concept was inspired by the second stanza of José Rizal&#x27;s Mi Último Adiós, expressing dedication to the country." data-fact="The original monument was completed in 1935. The word oblation comes from the Latin oblatio, meaning an offering or presentation to God. (University of the Philippines Diliman)" data-source="University of the Philippines Diliman – Oblation" data-note="" data-category="Sculpture Gallery">
+      <div class="exhibit-image">
+   	<img src="images/oblation.jpg" alt="Oblation by Guillermo E. Tolentino">
+	</div>
+      <div class="exhibit-plaque"><h3>Oblation</h3><p>Guillermo E. Tolentino · 1935</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="The Thinker" data-creator="Auguste Rodin" data-year="1880 (original conception)" data-description="The Thinker shows a muscular nude man seated in deep thought, with his body tense and his hand supporting his chin. Rodin combines physical strength with intellectual concentration, making the figure appear both powerful and contemplative." data-elements="Form, texture, proportion, balance, emphasis, movement, and contrast between muscular strength and stillness." data-meaning="Originally created as part of The Gates of Hell, the figure represented Dante contemplating the scenes of Hell. It later became a broader symbol of human thought, reflection, and intellectual struggle." data-fact="Rodin originally called the figure “The Poet.” It was conceived in 1880 and later became an independent artwork. The monumental version was enlarged in 1904. (Musée Rodin)" data-source="Musée Rodin – The Thinker" data-note="" data-category="Sculpture Gallery">
+      <div class="exhibit-image">
+    	<img src="images/the-thinker.jpg" alt="The Thinker by Auguste Rodin">
+	</div>
+      <div class="exhibit-plaque"><h3>The Thinker</h3><p>Auguste Rodin · 1880 (original conception)</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="The Burghers of Calais" data-creator="Auguste Rodin" data-year="1889" data-description="The sculpture portrays six citizens of Calais who volunteered to surrender themselves during the Hundred Years&#x27; War to save their city. Instead of presenting heroic figures in triumphant poses, Rodin shows them as emotionally burdened and vulnerable men." data-elements="Realism, proportion, texture, movement, asymmetrical balance, emphasis, and expressive form." data-meaning="The sculpture explores sacrifice, courage, suffering, and collective responsibility. Its unconventional presentation makes the heroes appear human rather than idealized." data-fact="Rodin deliberately avoided making the six men look like a single triumphant group. Their different poses and expressions emphasize their individual emotions." data-source="Musée Rodin – The Burghers of Calais" data-note="" data-category="Sculpture Gallery">
+      <div class="exhibit-image">
+    	<img src="images/burghers-of-calais.jpg" alt="The Burghers of Calais by Auguste Rodin">
+	</div>
+      <div class="exhibit-plaque"><h3>The Burghers of Calais</h3><p>Auguste Rodin · 1889</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+  </div>
+  <div class="gallery-footer">CLICK “VIEW EXHIBIT” TO LEARN MORE</div>
+</section>
+
+<section id="photographyRoom" class="page gallery-room">
+  <button class="back-button" data-back="lobby">← BACK TO LOBBY</button>
+  <header class="room-header"><p>GALLERY III</p><h2>📷 PHOTOGRAPHY</h2><span>Moments captured in time</span></header>
+  <div class="exhibit-grid">
+
+    <article class="exhibit-card" data-title="Migrant Mother" data-creator="Dorothea Lange" data-year="1936" data-description="Migrant Mother is an iconic black-and-white photograph showing a worried mother surrounded by her children. Her distant gaze and the children&#x27;s hidden faces create a powerful image of hardship, uncertainty, and parental responsibility during the Great Depression." data-elements="Contrast, composition, emphasis, texture, framing, balance, and emotional expression." data-meaning="The photograph represents poverty and resilience during the Great Depression. The mother&#x27;s expression became a powerful symbol of the struggles faced by migrant farm workers and families." data-fact="Lange photographed the woman, Florence Owens Thompson, in California in 1936. The image became one of the most recognizable photographs of the Great Depression. The Library of Congress preserves the photograph in its collection. (Library of Congress)" data-source="Library of Congress – Migrant Mother" data-note="" data-category="Photography Gallery">
+      <div class="exhibit-image">
+    	<img src="images/migrant-mother.jpg" alt="Migrant Mother by Dorothea Lange">
+	</div>
+      <div class="exhibit-plaque"><h3>Migrant Mother</h3><p>Dorothea Lange · 1936</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="Daklis: Traditional Fishing in Ilocos Sur" data-creator="Roy Cruz" data-year="2007" data-description="The photograph documents daklis, a traditional communal fishing method in Ilocos Sur. Villagers work together to pull a large dragnet toward shore, transforming fishing into a cooperative community activity." data-elements="Movement, rhythm, balance, repetition, scale, texture, and documentary composition." data-meaning="The image celebrates Filipino community cooperation and traditional livelihood. It also documents a cultural practice that photographers and communities hope future generations will preserve." data-fact="Cruz photographed the event in Cabugao, Ilocos Sur. Participants worked together to form a U-shaped dragnet and pull the catch toward shore. (Roy Cruz Photo)" data-source="Roy Cruz Photography – Daklis: Traditional Fishing in Ilocos Sur" data-note="" data-category="Photography Gallery">
+      <div class="exhibit-image">
+    	<img src="images/daklis.jpg" alt="Daklis: Traditional Fishing in Ilocos Sur by Roy Cruz">
+	</div>
+      <div class="exhibit-plaque"><h3>Daklis: Traditional Fishing in Ilocos Sur</h3><p>Roy Cruz · 2007</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="Afghan Girl" data-creator="Steve McCurry" data-year="1984" data-description="Afghan Girl is a portrait of a young Afghan refugee photographed by Steve McCurry at a refugee camp in Pakistan. Her intense green eyes and direct gaze immediately draw the viewer&#x27;s attention, creating an unforgettable portrait of vulnerability and strength." data-elements="Emphasis, contrast, color, balance, framing, symmetry, and eye contact." data-meaning="The photograph became associated with the experiences of Afghan refugees and the human consequences of conflict. The girl&#x27;s expression gives the photograph its emotional power." data-fact="The identity of the girl, later identified as Sharbat Gula, remained unknown for many years before she was identified in 2002." data-source="National Geographic – Afghan Girl" data-note="" data-category="Photography Gallery">
+      <div class="exhibit-image">
+    	<img src="images/afghan-girl.jpg" alt="Afghan Girl by Steve McCurry">
+	</div>
+      <div class="exhibit-plaque"><h3>Afghan Girl</h3><p>Steve McCurry · 1984</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+  </div>
+  <div class="gallery-footer">CLICK “VIEW EXHIBIT” TO LEARN MORE</div>
+</section>
+
+<section id="musicRoom" class="page gallery-room">
+  <button class="back-button" data-back="lobby">← BACK TO LOBBY</button>
+  <header class="room-header"><p>GALLERY IV</p><h2>🎵 MUSIC</h2><span>Art expressed through sound</span></header>
+  <div class="exhibit-grid">
+
+    <article class="exhibit-card" data-title="Pahintulot" data-creator="Iego Tan / Shirebound &amp; Busking" data-year="2019" data-description="Pahintulot is a Filipino indie song about vulnerability, affection, and asking someone for permission to give one&#x27;s heart. Its gentle musical character supports its intimate and poetic lyrics." data-elements="Melody, rhythm, harmony, dynamics, repetition, and lyrical expression." data-meaning="The song expresses the courage required to confess one&#x27;s feelings while asking the other person to accept and protect one&#x27;s heart." data-fact="The song was released on August 2, 2019 as part of For Princesses, By Thieves (O Mga Awit ng Hiraya Para sa Guni-guning Sinta). Iego Tan is credited as both composer and lyricist. (Shazam)" data-source="YouTube – Pahintulot / Shirebound &amp; Busking" data-note="" data-category="Music Gallery">
+      <div class="exhibit-image">
+    	<img src="images/pahintulot.jpg" alt="Pahintulot by Iego Tan and Shirebound & Busking">
+	</div>
+      <div class="exhibit-plaque"><h3>Pahintulot</h3><p>Iego Tan / Shirebound &amp; Busking · 2019</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="Tears in Heaven" data-creator="Eric Clapton and Will Jennings" data-year="1991" data-description="A deeply emotional ballad combining soft guitar, gentle vocals, and a reflective melody. Its restrained arrangement allows the emotional weight of the song to remain at the center." data-elements="Melody, harmony, dynamics, rhythm, tone color, repetition, and emotional expression." data-meaning="The song explores parental grief, remembrance, love, and the pain of losing someone deeply loved." data-fact="Clapton performed the song during his famous MTV Unplugged appearance in 1992. The performance helped make the song internationally recognizable. (Wikipedia)" data-source="Official Charts – Tears in Heaven Note: You listed Tears in Heaven twice. I kept both entries so you can preserve your original list, but you can delete one if you only need three music artworks." data-note="" data-category="Music Gallery">
+      <div class="exhibit-image">
+    	<img src="images/tears-in-heaven.jpg" alt="Tears in Heaven by Eric Clapton and Will Jennings">
+	</div>
+      <div class="exhibit-plaque"><h3>Tears in Heaven</h3><p>Eric Clapton and Will Jennings · 1991</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="Enchanted" data-creator="Taylor Swift" data-year="2010" data-description="Enchanted is a romantic power ballad from Taylor Swift&#x27;s album Speak Now. It begins with gentle acoustic instrumentation before expanding into a larger arrangement with electric guitars, drums, and layered vocals." data-elements="Melody, harmony, rhythm, dynamics, repetition, crescendo, and contrast." data-meaning="The song captures the excitement and uncertainty of meeting someone who immediately fascinates you. It expresses romantic wonder and the hope that the feeling might be mutual." data-fact="Swift wrote and recorded the song for Speak Now, released in 2010. She later released “Enchanted (Taylor&#x27;s Version)” in 2023. (Wikipedia)" data-source="Taylor Swift – Enchanted information" data-note="" data-category="Music Gallery">
+      <div class="exhibit-image">
+    	<img src="images/enchanted.jpg" alt="Enchanted by Taylor Swift">
+	</div>
+      <div class="exhibit-plaque"><h3>Enchanted</h3><p>Taylor Swift · 2010</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+  </div>
+  <div class="gallery-footer">CLICK “VIEW EXHIBIT” TO LEARN MORE</div>
+</section>
+
+<section id="dramaRoom" class="page gallery-room">
+  <button class="back-button" data-back="lobby">← BACK TO LOBBY</button>
+  <header class="room-header"><p>GALLERY V</p><h2>🎭 DRAMA</h2><span>Stories brought to life</span></header>
+  <div class="exhibit-grid">
+
+    <article class="exhibit-card" data-title="The Notebook" data-creator="Nicholas Sparks" data-year="1996" data-description="The Notebook is a romantic novel about Noah Calhoun and Allie Nelson, whose relationship survives separation, social expectations, and the passage of time. The story uses memories and storytelling to explore lasting love." data-elements="Character, conflict, plot, setting, theme, symbolism, and characterization." data-meaning="The story explores enduring love, memory, commitment, and the choices people make when faced with obstacles." data-fact="The Notebook was Nicholas Sparks&#x27; first published novel, released in 1996. It was later adapted into the popular 2004 film. (Wikipedia)" data-source="The Notebook – publication information" data-note="This is technically a novel, not a stage drama." data-category="Drama Gallery">
+      <div class="exhibit-image">
+    	<img src="images/the-notebook.jpg" alt="The Notebook by Nicholas Sparks">
+	</div>
+      <div class="exhibit-plaque"><h3>The Notebook</h3><p>Nicholas Sparks · 1996</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="A Midsummer Night&#x27;s Dream" data-creator="William Shakespeare" data-year="c. 1595–1596" data-description="This comedic play follows four young lovers, a group of amateur actors, and magical beings in an enchanted forest. Confusion, mistaken identities, and magical interference create humorous situations before the characters eventually find resolution." data-elements="Plot, character, conflict, dialogue, setting, symbolism, comedy, and dramatic irony." data-meaning="The play explores love, imagination, identity, and the unpredictable nature of human desire. It contrasts ordinary reality with the magical world of the forest." data-fact="The play is one of Shakespeare&#x27;s best-known comedies and remains widely performed around the world." data-source="Folger Shakespeare Library – A Midsummer Night&#x27;s Dream" data-note="" data-category="Drama Gallery">
+     <div class="exhibit-image">
+   	<img src="images/midsummer-nights-dream.jpg" alt="A Midsummer Night's Dream by William Shakespeare">
+	</div>
+      <div class="exhibit-plaque"><h3>A Midsummer Night&#x27;s Dream</h3><p>William Shakespeare · c. 1595–1596</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+    <article class="exhibit-card" data-title="The Glass Menagerie Playwright: Tennessee Williams" data-creator="" data-year="1944" data-description="The Glass Menagerie follows the Wingfield family: Amanda, her son Tom, and her fragile daughter Laura. Set in St. Louis, the play explores family expectations, memory, dreams, and the difficulty of escaping an unhappy reality." data-elements="Characterization, dialogue, symbolism, conflict, setting, memory, mood, and dramatic tension." data-meaning="The play explores the tension between dreams and reality. Laura&#x27;s glass animals symbolize her fragility, while Tom&#x27;s desire to escape represents the conflict between family responsibility and personal freedom." data-fact="The play premiered in Chicago in 1944 before moving to Broadway in 1945. It contains strong autobiographical elements from Williams&#x27; own family life. ([Encyclopedia.com](http://encyclopedia.com/))" data-source="[ Encyclopedia.com](http://encyclopedia.com/) – The Glass Menagerie" data-note="" data-category="Drama Gallery">
+      <div class="exhibit-image">
+    	<img src="images/glass-menagerie.jpg" alt="The Glass Menagerie by Tennessee Williams">
+	</div>
+      <div class="exhibit-plaque"><h3>The Glass Menagerie Playwright: Tennessee Williams</h3><p> · 1944</p><button class="view-details">VIEW EXHIBIT</button></div>
+    </article>
+  </div>
+  <div class="gallery-footer">CLICK “VIEW EXHIBIT” TO LEARN MORE</div>
+</section>
+
+<div id="artModal" class="art-modal" aria-hidden="true">
+  <div class="art-modal-content">
+    <button id="closeModal" class="close-modal">×</button>
+    <p id="modalCategory" class="modal-category"></p>
+    <h2 id="modalTitle"></h2>
+    <p id="modalCreator"></p>
+    <div class="modal-divider"></div>
+    <h3>ABOUT THE EXHIBIT</h3><p id="modalDescription"></p>
+    <h3>ELEMENTS / PRINCIPLES</h3><p id="modalElements"></p>
+    <h3>MEANING</h3><p id="modalMeaning"></p>
+    <h3>INTERESTING FACT</h3><p id="modalFact"></p>
+    <p id="modalNote" class="classification-note"></p>
+    <p id="modalSource" class="modal-source"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body></html>
